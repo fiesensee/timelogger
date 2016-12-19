@@ -1,0 +1,37 @@
+<div class="logOverview">
+    <select id="dateSelect">
+        {{#dates}}
+        <option value="{{date}}">{{date}}</option>
+        {{/dates}}
+    </select>
+    <table id="logTable">
+        <thead>
+            <tr>
+                <th>From</th>
+                <th>Till</th>
+                <th>Activity</th>
+                <th>Issue</th>
+                <th>Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#logs}}
+            <tr>
+                <td>{{from}}</td>
+                <td>{{till}}</td>
+                <td>{{activity}}</td>
+                <td>{{issue}}</td>
+                <td>{{hours}}</td>
+            </tr>
+            {{/logs}}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Hours</td>
+                <td>{{totalHours}}</td>
+            </tr>
+        </tfoot>    
+    </table>
+    <button type="button" id="back">Back</button>
+    <button type="button" id="send">Send</button>
+</div>

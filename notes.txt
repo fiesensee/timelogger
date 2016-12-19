@@ -1,0 +1,23 @@
+for table view
+    first get all possible dates from appInstance.logs
+    then set value to date in props
+    then render values for given date
+    logs array fill with log objects, don't forget the calculate hours function
+    calculate hours:
+        make to date and subtract, then get hours an minutes
+    calculate total time
+        add hours from all tasks
+
+task for future:
+    better filtering
+    send data to somewhere(crm, server, whatever)
+
+filtering:
+    filter for:
+        date
+        issue
+        also unfiltered
+
+sending data:
+    imporant to look at are <webview> and excuteJavascript from the electron api
+    also find a way to persist sessions

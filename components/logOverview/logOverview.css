@@ -1,0 +1,8 @@
+.logOverview {
+    width: 80vw;
+    margin: 10vh auto;
+}
+
+.logOverview > select {
+    width: 30vw;
+}

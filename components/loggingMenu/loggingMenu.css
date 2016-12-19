@@ -1,0 +1,11 @@
+.loggingMenuActions {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50vh;
+}
+
+#stopLogging {
+    border-color: #f34248;
+    color: #f34248; 
+}
